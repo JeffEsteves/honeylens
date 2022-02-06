@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 30vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h2 {
+  font-size: 3rem;
+  padding: 3rem;
+}
+
+header h2 #logo {
+  text-decoration: none;
+  color: black;
+}
+
+header .search-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+}
+
+header .search-form input {
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: 3px solid #2c79ec;
+}
+
+header .search-form button {
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: #2c79ec;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+header .search-form button:hover {
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
+}
+
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(350px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding: 2rem 0rem;
+  width: 80%;
+  margin: auto;
+  gap: 5rem 3rem;
+}
+
+.gallery .gallery-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gallery .gallery-img .gallery-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 0rem;
+}
+
+.gallery .gallery-img .gallery-info p {
+  font-size: 1.7rem;
+  color: gray;
+}
+
+.gallery .gallery-img .gallery-info a {
+  text-decoration: none;
+  color: gray;
+  border: 1.5px solid gray;
+  padding: 0.1rem 0.5rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.gallery .gallery-img .gallery-info a:hover {
+  background: #19db07;
+  color: #000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 1.5px solid black;
+}
+
+.nav-btn {
+  min-height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-btn .more {
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem 4rem;
+  border-radius: 8rem;
+  background-color: #2c79ec;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-btn .more:hover {
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=style.css.map */
